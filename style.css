@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: oklch(15% .026 268);
+    margin: 20px;
+}
+
+.navbar {
+    background-color: rgba(25, 27, 36, 0.7);
+    height: 30px;
+    margin: 25px;
+    padding: 20px;
+    border: 1px solid #64748B;
+    border-radius: 50px;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#logo {
+    background-color: #8e63f5;
+    color: black;
+    font-weight: bolder;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#name {
+    color: white;
+    font-weight: bold;
+    margin-right: 250px;
+    font-size: 16px;
+}
+
+.navbar a {
+    color: #64748B;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.navbar button {
+    background-color: #8E63F5;
+    color: black;
+    font-size: 14px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    margin-left: 167px;
+}
+
+.header1 {
+    margin-left: 50px;
+}
+
+#p1 {
+    font-size: 13px;
+    color: #64748B;
+    border: 1px solid #64748B;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-bottom: 16px;
+}
+
+#p2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+#p3 {
+    color: blue;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#p4 {
+    color: purple;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#p5 {
+    color: aqua;
+    font-size: 18px;
+    margin: 10px 5px 10px 5px;
+}
+
+#p6 {
+    color: #64748B;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.head {
+    display: flex;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+.header1 button {
+    background-color: #8E63F5;
+    color: black;
+    font-size: 14px;
+    padding: 12px 15px 12px 15px;
+    border-radius: 50px;
+    font-weight: 200;
+    margin-right: 10px;
+}
+
+.header1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#button {
+    color: white;
+    font-weight: 700;
+    background-color: black;
+}
+
+.header2 img {
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgba(142, 99, 245, 0.5);
+    border-radius: 25px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+.header2 #id1 {
+    color: aqua;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgba(0, 255, 255, 0.1);
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #64748B;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 35px;
+}
+
+.head small {
+    color: #64748B;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.header2 #id2 {
+    color: #64748B;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2 a {
+    text-decoration: none;
+}
+
+.header1,
+.header2 {
+    width: 50%;
+}
+
+#icon {
+    height: 35px;
+    width: 35px;
+    margin: 0px 15px 0px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #64748B;
+}
+
+#icon i {
+    color: #64748B;
+}
+
+.work {
+    margin: 70px 0px 80px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Emily", sans-serif;
+}
+
+.work #work1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.work #bigText {
+    color: oklch(96% .006 265);
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.work #smallText {
+    color: #64748B;
+    font-size: 13px;
+}
+
+main {
+    font-family: "Emily", sans-serif;
+}
+
+#journey,
+#skills {
+    color: #64748B;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#heading2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#extraInfo {
+    color: #64748B;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#edu {
+    color: #64748B;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#edu i {
+    margin-right: 5px;
+    color: aqua;
+}
+
+#journeyDetails {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.expEdu {
+    width: 50%;
+}
+
+#design {
+    width: 10%;
+    margin-right: 10px;
+    background-image: url("design.png");
+    background-size: cover;
+    height: 290px;
+}
+
+#arrangement {
+    display: flex;
+}
+
+#year {
+    color: aqua;
+    font-size: 0.7em;
+    margin: 5px 0px 10px 0px;
+}
+
+#course {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#institute {
+    color: rgb(56, 56, 164);
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+#courseWork {
+    color: #64748B;
+    font-size: 0.9em;
+}
+
+#languages {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#lang_head {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#lang_box {
+    display: flex;
+}
+
+#lang_name {
+    height: auto;
+    width: auto;
+    border: 1px solid #64748B;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    margin: 0px 10px 0px 10px;
+}
+
+.ai_wd {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#webDev {
+    width: 50%;
+}
+
+#lang_logo {
+    color: aqua;
+    border: 1px solid #64748B;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#wd_head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#frontend {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.certifications {
+    margin-bottom: 50px;
+}
+
+.achievements {
+    margin-bottom: 50px;
+}
+
+.services {
+    margin-bottom: 50px;
+}
+
+.footer {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border-top: 0.5px solid #64748B;
+}
+
+.footer-info {
+    margin-top: 50px;
+    width: 50%;
+    font-family: "Emily", sans-serif;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+
+.info-nav {
+    display: flex;
+}
+
+.info-logo {
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 30px;
+    width: 30px;
+    background-color: #8f63f5;
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: none;
+}
+
+.info-name {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: none;
+}
+
+.info-description,
+.info-navbar,
+.info-copyright {
+    color: #64748B;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.info-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-navbar a {
+    text-decoration: none;
+    color: #64748B;
+}
+
+.footer-nav i {
+    color: white;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #64748B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-right: 10px;
+}
+
+.certifications-heading {
+    height: 25px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748B;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.certifications-extrainfo {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+/**project-section**/
+.project-section {
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid #64748B;
+    border-radius: 25px;
+    width: 45%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.box-img {
+    height: 50%;
+    margin-bottom: 25px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.box p {
+    margin-top: 15px;
+    color: #64748B;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+.box-content {
+    width: 90%;
+    margin: auto;
+}
+
+.tech {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tech-box {
+    border: 1px solid #64748B;
+    border-radius: 15px;
+    margin-right: 10px;
+    height: auto;
+    width: auto;
+    padding: 3px 10px 3px 10px;
+    font-size: 0.85rem;
+    color: #64748B;
+}
+
+.github {
+    color: white;
+    border: 1px solid #64748B;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    padding: 10px 15px 10px 15px;
+    background-color: oklch(15% .026 268);
+    margin-right: 10px;
+}
+
+.github i {
+    margin-right: 10px;
+}
+
+.navigations a {
+    text-decoration: none;
+}
+
+.live-demo {
+    color: black;
+    border: 1px solid #64748B;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    padding: 12px 15px 12px 15px;
+    background-color: #8e63f5;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.live-demo i {
+    margin-right: 10px;
+}
+
+/**certification**/
+.certification-details {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cert {
+    display: flex;
+    border: 1px solid #64748B;
+    padding: 15px;
+    border-radius: 15px;
+    width: 29.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    margin-top: 15px;
+}
+
+.righttick-logo {
+    margin-right: 15px;
+    color: aqua;
+    padding-top: 5px;
+}
+
+.cert-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cert-description {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #64748B;
+}
+
+/**achievements**/
+.achievement-section {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.achievement-box {
+    display: flex;
+    border: 1px solid #64748B;
+    padding: 25px;
+    border-radius: 25px;
+    width: 44%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    margin-top: 20px;
+}
+
+.achievement-logo {
+    margin-right: 15px;
+    color: aqua;
+    border: 1px solid #64748B;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.achievement-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.achievement-description {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #64748B;
+}
+
+/**services**/
+.services-section {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-box {
+    display: flex;
+    border: 1px solid #64748B;
+    padding: 25px;
+    border-radius: 25px;
+    width: 44%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    margin-top: 20px;
+}
+
+.services-logo {
+    margin-right: 15px;
+    color: black;
+    background-color: #8f63f5;
+    border: 1px solid #64748B;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.services-heading {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.services-description {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #64748B;
+}
