@@ -9,14 +9,19 @@ body {
 }
 
 .navbar {
+    height: 70px;
+    width: 80vw;
+    position: fixed;
+    top: 70px;
+    left: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+
     background-color: rgba(25, 27, 36, 0.7);
-    height: 30px;
-    margin: 25px;
-    padding: 20px;
     border: 1px solid #64748B;
     border-radius: 50px;
-    position: fixed;
-    margin-top: 40px;
 }
 
 #logo {
@@ -26,22 +31,31 @@ body {
     padding: 7px;
     border-radius: 50%;
     margin-right: 5px;
+    margin-left: 25px;
     font-size: 16px;
 }
 
 #name {
     color: white;
     font-weight: bold;
-    margin-right: 250px;
     font-size: 16px;
 }
 
 .navbar a {
     color: #64748B;
     text-decoration: none;
-    margin-right: 30px;
     padding: 5px;
     font-size: 14px;
+}
+
+.nav2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2 a:hover {
+    color: white;
 }
 
 .navbar button {
@@ -50,7 +64,12 @@ body {
     font-size: 14px;
     padding: 5px 15px 5px 15px;
     border-radius: 50px;
-    margin-left: 167px;
+    margin-right: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+    transform: scale(1.05);
 }
 
 .header1 {
@@ -113,6 +132,7 @@ body {
     border-radius: 50px;
     font-weight: 200;
     margin-right: 10px;
+    transition: all 0.3s ease;
 }
 
 .header1 a {
@@ -124,6 +144,10 @@ body {
     color: white;
     font-weight: 700;
     background-color: black;
+}
+
+#button:hover {
+    background-color: rgba(25, 27, 36, 0.7);
 }
 
 .header2 img {
@@ -209,6 +233,14 @@ body {
     width: 300px;
     border: 1px solid gray;
     border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+#work1:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    z-index: 1;
 }
 
 .work #bigText {
@@ -353,6 +385,13 @@ main {
     margin: 0px 10px 0px 10px;
 }
 
+#lang_name:hover {
+    position: relative;
+    bottom: 3px;
+    border-color: rgba(0, 0, 255, 0.5);
+    z-index: 1;
+}
+
 .ai_wd {
     color: white;
     display: flex;
@@ -470,9 +509,17 @@ main {
     justify-content: space-between;
 }
 
+.info-navbar a:hover {
+    color: white;
+}
+
 .info-navbar a {
     text-decoration: none;
     color: #64748B;
+}
+
+.footer-nav a {
+    text-decoration: none;
 }
 
 .footer-nav i {
@@ -487,6 +534,13 @@ main {
     padding: 3px;
     background-color: rgba(128, 128, 128, 0.2);
     margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-nav i:hover {
+    color: aqua;
+    position: relative;
+    bottom: 3px;
 }
 
 .certifications-heading {
@@ -534,6 +588,13 @@ main {
     height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
 }
 
 .box-img {
@@ -624,6 +685,13 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     height: 50px;
     margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.cert:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
 }
 
 .righttick-logo {
@@ -662,6 +730,13 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     height: 90px;
     margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.achievement-box:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
 }
 
 .achievement-logo {
@@ -707,6 +782,13 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     height: 90px;
     margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.services-box:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
 }
 
 .services-logo {
