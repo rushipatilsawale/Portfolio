@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -568,9 +568,10 @@ main {
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 40px;
-}
+}**/
 
 /**project-section**/
+/**
 .project-section {
     color: white;
     width: 80%;
@@ -664,9 +665,10 @@ main {
 
 .live-demo i {
     margin-right: 10px;
-}
+}**/
 
 /**certification**/
+/**
 .certification-details {
     color: white;
     display: flex;
@@ -709,9 +711,10 @@ main {
     font-size: 0.8rem;
     margin-top: 5px;
     color: #64748B;
-}
+}**/
 
 /**achievements**/
+/**
 .achievement-section {
     color: white;
     display: flex;
@@ -761,9 +764,10 @@ main {
     font-size: 0.8rem;
     margin-top: 10px;
     color: #64748B;
-}
+}**/
 
 /**services**/
+/**
 .services-section {
     color: white;
     display: flex;
@@ -814,4 +818,989 @@ main {
     font-size: 0.9rem;
     margin-top: 10px;
     color: #64748B;
+}**/
+
+
+
+
+
+/* ==============================
+   GLOBAL
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: oklch(15% .026 268);
+    margin: 20px;
+}
+
+
+/* ==============================
+   NAVBAR
+================================= */
+
+.navbar {
+    height: 70px;
+    width: 80vw;
+    position: fixed;
+    top: 70px;
+    left: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    background-color: rgba(25, 27, 36, 0.7);
+    border: 1px solid #64748B;
+    border-radius: 50px;
+    z-index: 100;
+}
+
+.brand-group {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    background-color: #8e63f5;
+    color: black;
+    font-weight: bolder;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.brand-name {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #64748B;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-button {
+    display: inline-block;
+    background-color: #8E63F5;
+    color: black !important;
+    font-size: 14px !important;
+    padding: 5px 15px !important;
+    border-radius: 50px;
+    margin-right: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-hover {
+    background-color: #8E63F5;
+    color: black;
+    font-size: 14px;
+    padding: 12px 15px;
+    border-radius: 50px;
+    font-weight: 200;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-hover:hover,
+.nav-button:hover {
+    transform: scale(1.05);
+}
+
+
+/* ==============================
+   HERO
+================================= */
+
+.hero {
+    display: flex;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+.hero-content,
+.hero-visual {
+    width: 50%;
+}
+
+.hero-content {
+    margin-left: 50px;
+}
+
+.hero-status {
+    font-size: 13px;
+    color: #64748B;
+    border: 1px solid #64748B;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-bottom: 16px;
+}
+
+.status-dot {
+    color: aqua;
+    font-size: 20px;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.hero-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.hero-subtitle {
+    color: blue;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.hero-tagline {
+    color: purple;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.hero-role {
+    color: aqua;
+    font-size: 18px;
+    margin: 10px 5px;
+}
+
+.hero-description {
+    color: #64748B;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.resume-button {
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    font-size: 14px;
+    padding: 12px 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: rgba(25, 27, 36, 0.7);
+}
+
+
+/* ==============================
+   PROFILE
+================================= */
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgba(142, 99, 245, 0.5);
+    border-radius: 25px;
+}
+
+.experience-badge {
+    color: aqua;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgba(0, 255, 255, 0.1);
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #64748B;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 35px;
+}
+
+.hero small {
+    color: #64748B;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.profile-meta {
+    color: #64748B;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-icon {
+    margin-right: 10px;
+    margin-left: 25px;
+    color: rgb(0, 153, 255);
+}
+
+.social-icon {
+    height: 35px;
+    width: 35px;
+    margin: 0 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #64748B;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: aqua;
+    position: relative;
+    bottom: 5px;
+}
+
+.social-icon-first {
+    margin-left: 50px;
+}
+
+.social-icon i {
+    color: #64748B;
+}
+
+.social-icon i:hover {
+    color: aqua;
+}
+
+/* ==============================
+   STATISTICS
+================================= */
+
+.work {
+    margin: 70px 0 80px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Emily", sans-serif;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+    z-index: 1;
+}
+
+.stat-value {
+    color: oklch(96% .006 265);
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    color: #64748B;
+    font-size: 13px;
+}
+
+
+/* ==============================
+   MAIN
+================================= */
+
+main {
+    font-family: "Emily", sans-serif;
+}
+
+.section-label {
+    color: #64748B;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.section-label-wide {
+    width: 150px;
+}
+
+.section-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.section-description {
+    color: #64748B;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/* ==============================
+   JOURNEY
+================================= */
+
+.journey-section {
+    margin-bottom: 50px;
+}
+
+.journey-details {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.journey-column {
+    width: 50%;
+}
+
+.subsection-title {
+    color: #64748B;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subsection-title i {
+    margin-right: 5px;
+    color: aqua;
+}
+
+.timeline-content {
+    display: flex;
+}
+
+.timeline-line {
+    width: 10%;
+    margin-right: 10px;
+    background-image: url("design.png");
+    background-size: cover;
+    height: 290px;
+}
+
+.timeline-year {
+    color: aqua;
+    font-size: 0.7em;
+    margin: 5px 0 10px;
+}
+
+.education-course {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education-institute {
+    color: rgb(56, 56, 164);
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.education-details-text {
+    color: #64748B;
+    font-size: 0.9em;
+}
+
+
+/* ==============================
+   SKILLS
+================================= */
+
+.skills-section {
+    margin-bottom: 50px;
+}
+
+.language-skills {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.skill-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill-list {
+    display: flex;
+}
+
+.skill-list-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list-tight {
+    margin: 10px 0 0;
+}
+
+.skill-list-wide {
+    width: 150px;
+}
+
+.skill-list-offset {
+    margin: 0 0 10px 82px;
+}
+
+.skill-list-ai-offset {
+    margin: 0 0 10px 60px;
+}
+
+.skill-tag {
+    height: auto;
+    width: auto;
+    border: 1px solid #64748B;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    margin: 0 10px;
+}
+
+.skill-tag:hover {
+    position: relative;
+    bottom: 3px;
+    border-color: rgba(0, 0, 255, 0.5);
+    z-index: 1;
+}
+
+.skill-icon {
+    color: aqua;
+    border: 1px solid #64748B;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.skill-panel-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skills-row {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.skills-row-spaced {
+    margin-bottom: 50px;
+}
+
+.skill-panel {
+    width: 50%;
+}
+
+.skill-panel-raised {
+    position: relative;
+    bottom: 55px;
+}
+
+.skill-group {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.skill-group-title {
+    flex-shrink: 0;
+}
+
+
+/* ==============================
+   PROJECTS
+================================= */
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.project-section {
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    border: 1px solid #64748B;
+    border-radius: 25px;
+    width: 45%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+}
+
+.project-image {
+    height: 50%;
+    margin-bottom: 25px;
+    background-image: url("demo_project_image.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.project-content {
+    width: 90%;
+    margin: auto;
+}
+
+.project-card p {
+    margin-top: 15px;
+    color: #64748B;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+.project-tech {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tech-tag {
+    border: 1px solid #64748B;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    font-size: 0.85rem;
+    color: #64748B;
+}
+
+.project-actions a {
+    text-decoration: none;
+}
+
+.github {
+    color: white;
+    border: 1px solid #64748B;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    background-color: oklch(15% .026 268);
+    margin-right: 10px;
+}
+
+.github i {
+    margin-right: 10px;
+}
+
+.live-demo {
+    color: black;
+    border: 1px solid #64748B;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #8e63f5;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.live-demo i {
+    margin-right: 10px;
+}
+
+
+/* ==============================
+   CERTIFICATIONS
+================================= */
+
+.certifications {
+    margin-bottom: 50px;
+}
+
+.section-pill {
+    height: 25px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748B;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 10px 10px 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.certification-details {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.certification-card {
+    display: flex;
+    border: 1px solid #64748B;
+    padding: 15px;
+    border-radius: 15px;
+    width: 29.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.certification-card:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+}
+
+.certification-icon {
+    margin-right: 15px;
+    color: aqua;
+    padding-top: 5px;
+}
+
+.certification-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.certification-description {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #64748B;
+}
+
+
+/* ==============================
+   ACHIEVEMENTS
+================================= */
+
+.achievements {
+    margin-bottom: 50px;
+}
+
+.achievements-grid {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.achievement-card {
+    display: flex;
+    border: 1px solid #64748B;
+    padding: 25px;
+    border-radius: 25px;
+    width: 44%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+}
+
+.achievement-logo {
+    margin-right: 15px;
+    color: aqua;
+    border: 1px solid #64748B;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.achievement-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.achievement-description {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #64748B;
+}
+
+
+/* ==============================
+   SERVICES
+================================= */
+
+.services {
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    display: flex;
+    border: 1px solid #64748B;
+    padding: 25px;
+    border-radius: 25px;
+    width: 44%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    position: relative;
+    bottom: 5px;
+    border-color: rgba(0, 0, 255, 0.5);
+}
+
+.service-icon {
+    margin-right: 15px;
+    color: black;
+    background-color: #8f63f5;
+    border: 1px solid #64748B;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.service-title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.service-description {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #64748B;
+}
+
+
+/* ==============================
+   FOOTER
+================================= */
+
+.footer {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border-top: 0.5px solid #64748B;
+}
+
+.footer-info {
+    margin-top: 50px;
+    width: 50%;
+    font-family: "Emily", sans-serif;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+
+.footer-brand {
+    display: flex;
+}
+
+.footer-logo {
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 30px;
+    width: 30px;
+    background-color: #8f63f5;
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: none;
+}
+
+.footer-name {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: none;
+}
+
+.footer-description,
+.footer-links,
+.footer-copyright {
+    color: #64748B;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #64748B;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
+
+.footer-nav i {
+    color: white;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #64748B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-nav i:hover {
+    color: aqua;
+    position: relative;
+    bottom: 3px;
+}
+
+
+/* ==============================
+   ACCESSIBILITY
+================================= */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid aqua;
+    outline-offset: 3px;
+}
+
+.typing-cursor {
+    color: aqua;
+    font-weight: normal;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
